@@ -64,7 +64,7 @@ figcaption{
         width: 400px;
     }
     h1 {
-        font-size: 32px;
+        font-size: 30px;
     }
 }
 
@@ -76,13 +76,13 @@ figcaption{
         width: 650px;
     }
     h1 {
-        font-size: 60px;
+        font-size: 55px;
     }
     p {
-        font-size: 40px;
+        font-size: 35px;
     }
     li {
-        font-size: 32px;
+        font-size: 28px;
     }
     figcaption {
         font-size: 18px;
@@ -94,15 +94,15 @@ figcaption{
         box-sizing: border-box;
     }
     body {
-        width: 950px;
+        width: 900px;
     }
     h1 {
         font-size: 60px;
     }
     p {
-        font-size: 36px;
+        font-size: 32px;
     }
     figcaption {
-        font-size: 28px;
+        font-size: 30px;
     }
 }
