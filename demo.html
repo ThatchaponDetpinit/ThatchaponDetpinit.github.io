@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <img src="images/kku.jpg" alt="KKU" />
+      <p>
+        Here we will add a link to the<a href="http://www.kku.ac.th">KKU</a>
+      </p>
+    </section>
+    <script>
+      var image = document.getElementsByTagName("img")[0];
+      image.onclick = function () {
+        window.location.href = "https://www.en.kku.ac.th/web/en/";
+      };
+      var text = document.getElementsByTagName("p")[0];
+      text.innerHTML = "We hope you enjoy learning";
+
+      text.style.color = "white";
+      text.style.backgroundColor = "black";
+      text.style.padding = "10px";
+      text.style.width = "250px";
+      text.style.textAlign = "center";
+    </script>
+  </body>
+</html>
